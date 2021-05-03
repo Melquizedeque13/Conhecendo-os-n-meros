@@ -116,10 +116,17 @@ function draw() {
 // tela de inicio
   
   if(tela == 1){
-  background(0,200,0);
+ background(0,200,0);
   image(img,0,0);
-    fill(10,0,0,180)
+    fill(10,0,0,180);
     rect(195, 195, 220, 220, 13);
+    textStyle(ITALIC);
+    textAlign(CENTER);
+    textSize(50);
+    fill(10,0,0,180);
+    rect(15, 15, 573, 60, 13);
+    fill(255,255,0,);
+    text("Conhecendo os números", 300, 60);
     
   textStyle(ITALIC);
   textAlign(CENTER);
