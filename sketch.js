@@ -139,7 +139,7 @@ function draw() {
     if (mouseIsPressed){
       tela = 2
   }}
-  fill(255);
+  fill(255,255,0);
   noStroke();
   text("Jogar", 300, 265);
   
@@ -150,7 +150,7 @@ function draw() {
     if (mouseIsPressed){
       tela = 3
   }}
-  fill(255);
+  fill(255,255,0);
   noStroke();
   text("Informações", 305, 313);
    
@@ -161,7 +161,7 @@ function draw() {
     if (mouseIsPressed){
       tela = 4
   }}
-  fill(255);
+  fill(255,255,0);
   noStroke();
   text("Créditos", 303, 363)
   
